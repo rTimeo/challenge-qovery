@@ -30,7 +30,7 @@ header .logo{
 }
 
 header .main-parag{
-    width: 487px;
+    max-width: 487px;
     
 }
 
@@ -130,4 +130,67 @@ header .top-right img{
     padding: 12px 20px;
     display: flex;
     align-items: center;
+}
+
+
+.first-sec{
+    width: 100vw;
+    background-color:#F9F9FD ;
+    display: flex;
+    justify-content: center;
+}
+
+.first-sec .bloc-sec-one{
+    width: 904.58px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 150px;
+}
+.bloc-bottom{
+    position: relative;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+.img-usage{
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    right: 3px;
+    
+}
+
+.bloc-rust{
+    position: relative;
+    z-index: 2;
+    height: 11111px;
+    background-color: white;
+}
+
+
+.bloc-title-bottom{
+    display: flex;
+    align-items: center;    
+    flex-direction: column;
+    margin-bottom: 100px;
+    margin-top: 50px;
+}
+
+.bloc-top{
+    margin-bottom: 50px;
+    height: 100%;
+}
+
+.bloc-top h2,
+.bloc-top p{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+h3{
+    font-size: 32px;
 }
