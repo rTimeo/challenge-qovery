@@ -12,7 +12,7 @@ async function getStarCount() {
   
     const starCountElement = document.createElement("span");
     starCountElement.innerHTML = `${starCount}`;
-    document.querySelector(".title-api a").appendChild(starCountElement);
+    document.querySelector(".main-container .title a").appendChild(starCountElement);
   }
   
   getStarCount();

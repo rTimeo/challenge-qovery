@@ -16,16 +16,16 @@
 <body>
     
 <header>
-    <div class="main">
-        <div class="top-left">
+    <div class="main-container">
+        <div class="a">
             <div class="logo">
                 <img src="assets/img/logo.png" alt="">
             </div>
-                <div class="main-parag">
-                    <div class="title-api">
+                <div class="text-container">
+                    <div class="title">
                         <h1>Qovery Engine</h1>
                             <a href="https://github.com/Qovery">
-                                <p class="api-git"> <img src="assets/img/githubblack.png" alt=""> Star</p>
+                                <p> <img src="assets/img/githubblack.png" alt=""> Star</p>
                             </a>
                     </div>
                 <p>
@@ -46,33 +46,38 @@
                 
             </div>
         </div>
-        <div class="top-right">
-            <img src="assets/img/imgmain.png" alt="">
-        </div>
+        
+        <img class="picture" src="assets/img/imgmain.png" alt="">
+        
     </div>
 </header>
 
-<section class="first-sec">
-    <div class="bloc-sec-one">
-        <div class="bloc-top">
-        <h2>How does it work?</h2>
-        <p>Qovery Engine is an open-source abstraction layer product that turns easy apps deployment on AWS, GCP, <br>
-            Azure and others Cloud providers. The Qovery Engine is coded in Rust and takes advantage of Terraform, <br>
-            Helm, Kubectl, Docker to manage resources.</p>
-        <img src="assets/img/sec-one-main.png" alt="">
+<section id="f-sec">
+    <div class="section-content">
+        <div class="b-top">
+            <h2>How does it work</h2>
+            <p>Qovery Engine is an open-source abstraction layer product that turns easy apps deployment on AWS, GCP, <br>
+                Azure and others Cloud providers. The Qovery Engine is coded in Rust and takes advantage of Terraform, <br>
+                Helm, Kubectl, Docker to manage resources.</p>
+            <img src="assets/img/sec-one-main.png" alt="">
         </div>
-        <div class="bloc-bottom">
-            <div class="bloc-title-bottom">
+        <div class="b-bottom">
             <h3>Usage</h3>
             <p>Initialize EKS (AWS Kubernetes) and ECR (AWS container registry) on AWS</p>
-            </div>
-                <div class="img-usage">
-                    <img src="assets/img/sec-one-usage.png" alt="">
-                </div>
-            <div class="bloc-rust">
-                <img src="assets/img/Frame 238.png" alt="">
-            </div>
+            
+            <img class="absolute" src="assets/img/sec-one-usage.png" alt="">
+                <div>
+                    <img src="assets/img/Frame 238.png" alt="">     
+                </div>       
         </div>
+        <ul>
+            <a href="">
+                <li><img src="assets/img/githubwhite.png" alt=""> See on Github </li>
+            </a>
+            <a href="">
+                <li> <img src="assets/img/discord.png" alt=""> Join us on Discord   </li>
+            </a>
+        </ul>
     </div>
 </section>
 
