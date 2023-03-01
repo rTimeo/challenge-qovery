@@ -154,17 +154,20 @@ p:nth-child(3){
 
 main{
         background-color: #F9F9FD;
-    padding-top: 60px;
+        padding-top: 60px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
 }
 
-
+#f-sec{
+    margin-bottom: 92px;
+}
 
 #f-sec .section-content{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 0 auto;
-    max-width: 904.58px;
 }
 
 #f-sec p,
@@ -257,6 +260,77 @@ h3{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    margin: 0 auto;
-    max-width: 1059px;
+    justify-content: space-between;
+    width: 1059px;
+    gap: 55px 0;
+    margin-bottom: 170px;
+}
+
+
+
+#t-sec div{
+    height: 480px;
+    width: 430px;
+    display: flex;
+    flex-direction: column;
+
+}
+#t-sec span{
+    margin-top: auto;
+    color: #6578C0;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+#t-sec img {
+    margin-bottom: 24px;
+}
+#t-sec  div:nth-child(1) img{
+    
+    height: 169.55px;
+    object-fit: contain;
+    align-self: flex-start;
+}
+
+#t-sec  div:nth-child(2) img{
+    width: 305px;
+    object-fit: cover;
+}
+
+#t-sec  div:nth-child(3) img{
+    width: 262px;
+    height: 233px;
+    object-fit: cover;
+}
+
+#t-sec  div:nth-child(4) img{
+    width: 421.5px;
+    height: 233px;
+    object-fit: cover;
+}
+
+#t-sec .one{
+    font-weight: 700;
+    font-size: 24px;
+    color: #454658;
+    margin-bottom: 24px;
+
+}
+
+#t-sec .two{
+    font-weight: 400;
+    font-size: 16px;
+    color: #454658;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    background-color: #F9F9FD;
+    height: 200px;
+}
+footer p{
+    font-size: 32px;
+    font-weight: 700;
+    color: #454658;
 }
